@@ -1,9 +1,9 @@
 import "./services.css";
-import logoDesignIcon from '../assets/logo-design.png';
-import digitalMarketingIcon from '../assets/digital-Marketing.png';
-import appDevIcon from '../assets/App-Developement.png';
-import softwareDevIcon from '../assets/Software-Devlopement.png';
-import webDevIcon from '../assets/Web-Devlopement.png';
+import logoDesignIcon from '../assets/logodesign.png';
+import digitalMarketingIcon from '../assets/digitalMarketing.png';
+import appDevIcon from '../assets/AppDevelopement.png';
+import softwareDevIcon from '../assets/SoftwareDevlopement.png';
+import webDevIcon from '../assets/WebDevlopement.png';
 
 const Services = () => {
   const services = [

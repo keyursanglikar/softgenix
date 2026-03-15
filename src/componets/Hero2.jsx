@@ -1,5 +1,5 @@
 import   "./Hero2.css";
-import heroimg from '../assets/ChatGPT Image Mar 15, 2026, 04_20_35 AM.png'
+import heroimg from '../assets/hero2.png'
 
 const Hero2 = ()=>{
     return(

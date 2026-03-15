@@ -1,5 +1,5 @@
 import "./about.css";
-import ThreeD from '../assets/10798281_19362653.jpg'
+import ThreeD from '../assets/secondHero.jpg'
 
 const About = () => {
   return (
