@@ -1,0 +1,145 @@
+.contact-footer-section {
+  width: 100%;
+  color: white;
+  box-sizing: border-box;
+
+}
+
+/* --- Contact Section --- */
+.contact-section {
+  padding: 80px 5%;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: #cbd5f5;
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Contact Info: left-aligned */
+.contact-info {
+  flex: 1 1 300px;
+  max-width: 400px;
+  text-align: left;
+}
+
+.contact-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #cbd5f5;
+}
+
+/* Contact Form: right side */
+.contact-form {
+  flex: 1 1 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* --- Footer Section --- */
+.footer-section {
+  padding: 40px 5%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+  color: #3b82f6;
+}
+
+.footer-socials a {
+  margin: 0 8px;
+  color: #94a3b8;
+  font-size: 1.2rem;
+}
+
+.footer-socials a:hover {
+  color: #3b82f6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .contact-container {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    max-width: 100%;
+    text-align: center;
+  }
+}

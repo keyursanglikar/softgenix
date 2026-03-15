@@ -1,0 +1,28 @@
+.hero-image{
+    margin-top: 5vh;
+ 
+    width: 70%;
+    height: 100%;
+    /* border-radius: 10%; */
+  
+}
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.Hero2-container{
+    width: 100%;
+   height: calc(100vh - 70px);
+    /* background: linear-gradient(135deg,#0f172a,#1e3a8a); */
+    display: flex;
+    /* margin-top: 10vh; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+ 
+}

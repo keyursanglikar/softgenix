@@ -1,0 +1,72 @@
+.Navbar-container{
+    width: 100%;
+    background-color: rgb(2, 7, 20);
+    height: 70px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    gap: 10vw;
+    position: relative;
+
+ 
+}
+
+.nav-logo{
+    width: 20%;
+    height: 100%;
+    
+}
+
+.nav-list{
+    display: flex;
+    flex-direction:row ;
+    font-size: 3vh;
+    font-weight: 500;
+    /* font-family:'Times New Roman', Times, serif; */
+    gap: 2vw;
+    list-style: none;
+
+}
+
+.nav-list li:hover{
+    display: flex;
+    flex-direction:row ;
+    font-size: 3vh;
+    font-weight: 500;
+    /* font-family:'Times New Roman', Times, serif; */
+    gap: 2vw;
+    list-style: none;
+    color: rgb(151, 197, 237);
+    cursor: pointer;
+
+}
+
+
+.GetStarted{
+    padding: 0px 0px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 10vw;
+    height: 6vh;
+}
+
+/* Hover effect */
+.GetStarted:hover{
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Click effect */
+.GetStarted:active{
+    transform: scale(0.97);
+}
